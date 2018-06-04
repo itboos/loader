@@ -5,7 +5,8 @@ var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
   hm.async = true;
-  hm.src = "https://hm.baidu.com/hm.js?16c61dc43821e0533a6e4af81fabe7f9";
+  // 16c61dc43821e0533a6e4af81fabe7f9
+  hm.src = "https://hm.baidu.com/hm.js?d0f362a71137d23544aaa5c9133640e3";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();

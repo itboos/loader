@@ -77,6 +77,7 @@ module.exports = {
     'arrow-parens': 0,
     'linebreak-style': 0,
     'no-param-reassign': 0,
+    "max-len": 0,
   },
   globals: {
     Vue: false,
