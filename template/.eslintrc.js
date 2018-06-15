@@ -78,6 +78,7 @@ module.exports = {
     'linebreak-style': 0,
     'no-param-reassign': 0,
     "max-len": 0,
+    "no-trailing-spaces": 0,
   },
   globals: {
     Vue: false,

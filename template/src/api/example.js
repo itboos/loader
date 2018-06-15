@@ -10,3 +10,16 @@ fetch.get('v1/h5/weekly_send_top.json', {
     console.log(res);
   },
  });
+ const data = {
+
+ };
+ 
+ fetch.get(action, {
+  data,
+  callback: (res) => {
+    console.log(res);
+    if (res.errno === 0) {
+      // 处理
+    }
+  },
+});

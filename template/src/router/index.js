@@ -1,4 +1,4 @@
-import HelloWorld from '@/components/HelloWorld';
+import home from '@/components/home';
 
 Vue.use(VueRouter);
 
@@ -6,8 +6,8 @@ export default new VueRouter({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld,
+      name: 'home',
+      component: home,
     },
   ],
 });

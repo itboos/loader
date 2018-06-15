@@ -57,6 +57,7 @@ export default {
       headers: param.headers || { 'content-type': 'application/x-www-form-urlencoded' },
       params: param.data,
     }).then(res => {
+      // 这里可以做全局登录失败的判断
       param.callback(res.data);
     })
     .catch((error) => {

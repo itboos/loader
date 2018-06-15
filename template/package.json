@@ -26,6 +26,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    {{#vuex}}
+    "vuex": "^3.0.1",
+    {{/vuex}}
     "vue": "^2.5.2"
   },
   "devDependencies": {

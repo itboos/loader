@@ -3,6 +3,8 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     msg: 'loader msg',
+    logArr: [],
+    logShow: true,
     demoList: [{ id: 0, desc: 'demo1' }, { id: 1, desc: 'demo2' }],
     isIos: /ip(hone|od|ad)/i.test((navigator.userAgent || navigator.vendor || window.opera)),
     isAndroid: /android/i.test((navigator.userAgent || navigator.vendor || window.opera)),
