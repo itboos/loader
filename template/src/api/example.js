@@ -1,3 +1,4 @@
+/* eslint-disabled */
 import fetch from '../api/fetch';
 
 const data = {
@@ -10,6 +11,7 @@ fetch.get('v1/h5/weekly_send_top.json', {
     console.log(res);
   },
  });
+
  const data = {
 
  };
@@ -21,5 +23,16 @@ fetch.get('v1/h5/weekly_send_top.json', {
     if (res.errno === 0) {
       // 处理
     }
-  },
-});
+  });
+
+  fetch.post('p/binding', {
+    headers: { 'content-type': 'application/json' },
+    data,
+    callback: (res) => {
+      console.log(res);
+      if (res.errno === 0) {
+      } else {
+        this.showTip(res.desc, 1500);
+      }
+    },
+  });

@@ -10,7 +10,9 @@
 import fetch from '../api/fetch';
 
 /* eslint-disable */
-
+// this.$store.commit('accord', ['点击立即推广按钮', '点击立即推广按钮', '点击立即推广按钮']); commit 提交变化
+// this.$store.dispatch('loadScript', {src: '', callback => () {} }); commit 提交变化
+// https://vuex.vuejs.org/zh/api/#vuex-store-%E5%AE%9E%E4%BE%8B%E6%96%B9%E6%B3%95
 export default {
   name: 'rank',
   computed: {
